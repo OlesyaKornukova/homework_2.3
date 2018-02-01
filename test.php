@@ -59,7 +59,7 @@ if (!empty($_POST['name_form']))
     $backColor = imagecolorallocate($im, 255, 224, 221);
     $textColor = imagecolorallocate($im, 0, 0, 0);
 
-    $fontFile = 'FONT.ttf';
+    $fontFile = DIR.‘/FONT.ttf’;
 
     $imBox = imagecreatefromjpeg('cover_big.jpg');
 
